@@ -58,7 +58,7 @@ def handle_message(update, context):
         # Process the user's message using the generative model
         response = model.generate_content([user_message])
         # Send the generated response back to the user
-        update.message.reply_text("Bot: " + response.text)
+        update.message.reply_text("Gemini: " + response.text)
 
 # Set up the Telegram bot updater and dispatcher
 updater = Updater(token=TELEGRAM_BOT_TOKEN, use_context=True)
