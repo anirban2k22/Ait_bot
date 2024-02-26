@@ -1,2 +1,4 @@
 google.generativeai==0.3.2
 telegram==0.0.1
+telebot==0.0.5
+python-telegram-bot==1.2.0
